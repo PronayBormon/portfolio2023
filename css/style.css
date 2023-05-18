@@ -1,0 +1,286 @@
+nav.scrolled {
+    background: #fff;
+    transition: .15s all ease-in-out;
+    /* height: 50px; */
+    box-shadow: 0px 0px 5px 0px #2075614a;
+}
+.navbar-brand {
+    color: #207561 !important;
+    font-family: "Arbutus Slab", serif;
+}
+
+.bannar{
+
+min-height: 100vh;
+
+padding-top: 40vh;
+
+background-image: url(../images/bannar.JPG);
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+}
+.bannar h1{
+
+font-size: 40px;
+
+font-family: "Arbutus Slab", serif;
+}
+.bannar p{
+
+font-family: "Arbutus Slab", serif;
+
+color: #1a1a1a;
+
+margin: 25px 0px;
+
+font-size: 20px;
+}
+.bannar button{
+    
+background: #207561;
+    
+color: #fff;
+    
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    
+font-family: "Arbutus Slab", serif;
+    
+font-size: 20px;
+    
+border-radius: 20px;
+    
+border: none;
+    
+padding: 5px 18px;
+}
+.bannar button:hover{
+    background: #000;
+    border-color: #000;
+    color: #fff;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: "Arbutus Slab", serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 35px;
+}
+.title{
+
+}
+.title h2{
+    font-family: "Arbutus Slab", serif;
+    color: #000;
+}
+.service{
+
+padding: 20px;
+
+/* border: 1px solid #0003; */
+
+box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+
+margin: 30px 0px;
+
+transition: .4s all ease-in-out;
+}
+.service:hover{
+
+box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+}
+.service i {
+background: #207561;
+color: #fff;
+border-radius: 50%;
+padding: 23px;
+font-size: 30px;
+text-align: center;
+}   
+.service h2{
+
+font-family: "Arbutus Slab", serif;
+
+color: #000;
+
+}
+.service p{
+
+font-family: "Arbutus Slab", serif;
+
+color: #000;
+
+}
+.about{
+
+}
+.about h2{
+
+font-family: "Arbutus Slab", serif;
+
+color: #000;
+
+margin-bottom: 20px;
+
+padding-bottom: 15px;
+}
+.about span{
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    background: #207561;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 30px;
+    transition: .4s all ease-in-out;
+}
+.about:hover span{
+    width: 200px;
+}
+.about p{
+
+font-family: "Arbutus Slab", serif;
+
+color: #000;
+}
+.a_title{
+    position: relative;
+}
+/*zoom image */
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+  
+  .zoomed-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 999;
+  }
+.btn_zoom{
+    z-index: 999999;
+    position: absolute;
+    color: #000 !important;
+    right: 0px;
+}  
+
+/* portfolio section start here  */
+.section{
+    width: 200px;
+    display: -webkit-inline-box;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #207561;
+    margin: 5px;
+    position: relative;
+}
+.section:hover::after, .section:hover::before{    
+    width: 49%;
+    height: 100%;
+}
+.section::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 0%;
+    height: 0%;
+    background-color: #207561b0;
+    transition: .4s all ease-in-out;
+}
+.section::before{
+    position: absolute;
+    content: "";
+    right: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 0%;
+    border-bottom: 1px solid #207561b0;
+    border-right: 1px solid #207561b0;
+    background-color: #207561b0;
+    transition: .4s all ease-in-out;
+}
+.section img{
+    width: 200px;
+}
+.section h1{        
+    position: absolute;        
+    left: 50%;        
+    top: 50%;        
+    transform: translate(-50%,-50%);        
+    font-family: "Arbutus Slab", serif;        
+    text-transform: capitalize;        
+    padding: 10px;        
+    height: 100%;        
+    width: 100%;        
+    text-align: center;        
+    font-size: 18px;        
+    z-index: 1;        
+    color: #fff;
+    transition: .4s all ease-in-out;
+    opacity: 0;
+}
+.project_gallary{
+
+}
+.project_gallary button{
+    font-family: "Arbutus Slab", serif;
+    background: #207561;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.p_title h1{
+    font-family: "Arbutus Slab", serif;
+    color: #000;
+}
+.section span a{
+    color: #fff;
+    z-index: 999;
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+    top: 50%;
+    font-size: 40px;
+    transform: translate(-20%, -50%);
+    transition: .4s all ease-in-out;
+}
+.section strong a{
+    color: #fff;
+    z-index: 999;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    font-size: 40px;
+    transform: translate(-20%, -50%);
+    transition: .4s all ease-in-out;
+    opacity: 0;
+}
+.section:hover strong a{    
+    right: 20%;
+    opacity: 100%;
+}
+.section:hover span a{    
+    left: 20%;
+    opacity: 100%;
+}
+.section:hover h1{
+    opacity: 100%;
+}
+
+
+/* test  */
+
+  
+ 
