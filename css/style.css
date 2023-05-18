@@ -34,7 +34,7 @@ font-family: "Arbutus Slab", serif;
 
 font-family: "Arbutus Slab", serif;
 
-color: #1a1a1a;
+color: #666666;
 
 margin: 25px 0px;
 
@@ -112,8 +112,7 @@ color: #000;
 
 font-family: "Arbutus Slab", serif;
 
-color: #000;
-
+color: #666666;
 }
 .about{
 
@@ -145,7 +144,7 @@ padding-bottom: 15px;
 
 font-family: "Arbutus Slab", serif;
 
-color: #000;
+color: #666666;
 }
 .a_title{
     position: relative;
@@ -185,7 +184,7 @@ color: #000;
     position: relative;
 }
 .section:hover::after, .section:hover::before{    
-    width: 49%;
+    width: 50%;
     height: 100%;
 }
 .section::after{
@@ -213,22 +212,23 @@ color: #000;
 .section img{
     width: 200px;
 }
-.section h1{        
-    position: absolute;        
-    left: 50%;        
-    top: 50%;        
-    transform: translate(-50%,-50%);        
-    font-family: "Arbutus Slab", serif;        
-    text-transform: capitalize;        
-    padding: 10px;        
-    height: 100%;        
-    width: 100%;        
-    text-align: center;        
-    font-size: 18px;        
-    z-index: 1;        
+.section h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Arbutus Slab", serif;
+    text-transform: capitalize;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    z-index: 1;
     color: #fff;
     transition: .4s all ease-in-out;
     opacity: 0;
+    margin-top: 20px;
 }
 .project_gallary{
 
@@ -253,7 +253,7 @@ color: #000;
     opacity: 0;
     top: 50%;
     font-size: 40px;
-    transform: translate(-20%, -50%);
+    transform: translate(-50%, -50%);
     transition: .4s all ease-in-out;
 }
 .section strong a{
@@ -272,7 +272,7 @@ color: #000;
     opacity: 100%;
 }
 .section:hover span a{    
-    left: 20%;
+    left: 50%;
     opacity: 100%;
 }
 .section:hover h1{
@@ -280,7 +280,16 @@ color: #000;
 }
 
 
-/* test  */
+footer{
+    height: 100px;
+    background-color: #66666612;
+    color: #666666;
+    font-family: "Arbutus Slab", serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
   
  
